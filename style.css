@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 200vh;
+}
+/* start header */
+header {
+    height: 100vh;
+    background-color: #3c3c3c;
+    color: #f04b11;
+}
+.navbar {
+    border-bottom: 2px solid #f04b11;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #3c3c3c;
+}
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.logo h2 {
+    font-weight: 100;
+}
+.menu-icon, .close-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 32px;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+    pointer-events: none;
+}
+.menu-icon.active {
+    opacity: 1;
+    right: 30px;
+    pointer-events: auto;
+}
+.close-icon.active {
+    opacity: 1;
+    right: 30px;
+    pointer-events: auto;
+}
+.main-menu {
+    list-style: none;
+    display: flex;
+}
+.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.anouncement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+.anouncement h1 {
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}
+.anouncement p {
+    margin: 10px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.anouncement .buy-ticket {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #3c3c3c;
+    text-transform: uppercase;
+    background-color: #f04b11;
+    border: 2px solid #f04b11;
+}
+@media screen and (max-width: 767px) {
+    .main-menu {
+        flex-direction: column;
+        position: fixed;
+        background-color: #f04c11ad;
+        top: 80px;
+        left: 100vw;
+        width: 200px;
+        height: calc(100vh - 80px);
+        align-items: center;
+        transition: .2s;
+    }
+    .main-menu.active {
+        left: calc(100vw - 200px);
+    }
+    .main-menu li {
+        width: 100%;
+    }
+    .main-menu li a {
+        color: #3c3c3c;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .main-menu li a:hover {
+        background-color: #f04c11;
+    }
+}
+@media screen and (min-width: 768px) {
+    .menu-icon, .close-icon {
+        display: none;
+    }
+    .main-menu {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .main-menu li {
+        margin: 0 10px;
+    }
+    .main-menu li a {
+        color: #f04b11;
+        font-size: 20px;
+    }
+    .main-menu li a:hover {
+        border-bottom: 2px solid #f04b11;
+    }
+}
+/* end header */
