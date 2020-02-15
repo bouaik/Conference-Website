@@ -6,9 +6,6 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
-body {
-    height: 200vh;
-}
 img {
     width: 100%;
 }
@@ -244,6 +241,14 @@ form {
 form input {
     width: 300px;
     font-size: 22px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #f04b11;
+    color: #f04b11;
+}
+form input::placeholder {
+    color: #f04b11;
+    opacity: .4;
 }
 form button {
     background-color: #f04b11;
