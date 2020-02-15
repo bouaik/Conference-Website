@@ -9,6 +9,9 @@ html {
 body {
     height: 200vh;
 }
+img {
+    width: 100%;
+}
 /* start header */
 header {
     height: 100vh;
@@ -93,7 +96,7 @@ header {
     .main-menu {
         flex-direction: column;
         position: fixed;
-        background-color: #f04c11ad;
+        background-color: #f04c11e8;
         top: 80px;
         left: 100vw;
         width: 200px;
@@ -137,3 +140,85 @@ header {
     }
 }
 /* end header */
+/* start speakers */
+.speakers {
+    margin: 40px 0;
+}
+.title {
+    font-size: 40px;
+    color: #f04b11;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bar {
+    height: 10px;
+    background-color: #f04b11;
+    width: 200px;
+    margin: auto;
+    border-radius: 50px;
+}
+.container {
+    padding: 0 15px;
+}
+.speakers-container {
+    margin-top: 50px;
+}
+.speaker {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    margin: 30px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.speaker-name {
+    color: #f04b11;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.speaker-desc {
+    color: #3c3c3c;
+    line-height: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+.speaker-contact {
+    margin-top: 10px;
+    text-align: right;
+}
+.follow {
+    text-transform: uppercase;
+    color: #3c3c3c;
+}
+.fab {
+    margin: 0 10px;
+    color: #f04b11;
+    font-size: 17px;
+}
+.fab:hover {
+    color: #3c3c3c;
+}
+@media screen and (min-width: 768px) {
+    .speaker {
+        grid-template-columns: 1fr 2fr;
+    }
+    .speaker-reversed {
+        grid-template-columns: 2fr 1fr;
+    }
+    .speaker-reversed .image {
+        order: 2;
+    }
+    .speaker-reversed .info {
+        order: 1;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .container {
+        width: 1100px;
+        margin: auto;
+    }
+}
+/* end speakers */
