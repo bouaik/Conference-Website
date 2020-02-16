@@ -13,7 +13,6 @@ img {
 header {
     height: 100vh;
     background-color: #3c3c3c;
-    color: #f04b11;
 }
 .navbar {
     border-bottom: 2px solid #f04b11;
@@ -31,6 +30,7 @@ header {
 }
 .logo h2 {
     font-weight: 100;
+    color: #f04b11;
 }
 .menu-icon, .close-icon {
     position: absolute;
@@ -41,6 +41,7 @@ header {
     transition: .5s;
     cursor: pointer;
     pointer-events: none;
+    color: #f04b11;
 }
 .menu-icon.active {
     opacity: 1;
@@ -66,6 +67,7 @@ header {
     justify-content: center;
     align-items: center;
     height: calc(100vh - 80px);
+    color: #f04b11;
 }
 .anouncement h1 {
     font-weight: 100;
@@ -243,7 +245,8 @@ form input {
     font-size: 22px;
     background-color: transparent;
     outline: none;
-    border: 2px solid #f04b11;
+    border: none;
+    border-bottom: 2px solid #f04b11;
     color: #f04b11;
 }
 form input::placeholder {
@@ -308,3 +311,83 @@ footer .fab:hover {
     text-transform: uppercase;
 }
 /* end footer */
+/* start about */
+.about {
+    padding-top: 120px;
+}
+.text {
+    color: #3c3c3c;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+/* end about */
+/* start tickets */
+.tickets {
+    padding-top: 120px;
+}
+.tickets-content {
+    margin: 40px 0;
+    display: grid;
+    grid-gap: 20px;
+}
+.ticket-name {
+    text-transform: uppercase;
+    color: #f04b11;
+    font-size: 20px;
+    background-color: #3c3c3c;
+    text-align: center;
+    padding: 5px 0;
+}
+.ticket-desc {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #3c3c3c;
+    font-style: italic;
+}
+.remaining-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.remaining {
+    background-color: grey;
+    text-align: right;
+    padding: 4px 6px;
+    font-size: 12px;
+    border-radius: 10px 0 10px 0;
+}
+.buy {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.buy a {
+    text-decoration: none;
+    color: #f04b11;
+    background-color: #3c3c3c;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.buy a:hover {
+    background-color: #f04b11;
+    color: #3c3c3c;
+}
+@media screen and (min-width: 600px) {
+    .tickets-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 768px) {
+    .tickets-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* end tickets */
