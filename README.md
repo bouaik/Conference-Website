@@ -7,7 +7,7 @@
 
 * I built three pages on this website, the home page, the about page and the buying tickets page.
 
-* Each of these pages have versions for 3 different screen sizes :
+* Each of these pages have versions for 2 different screen sizes :
     * mobile: up to 767px
     * desktop: from 768px
 
