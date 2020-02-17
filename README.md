@@ -5,12 +5,17 @@
 ![Capture](https://user-images.githubusercontent.com/45256093/74641513-b6e77d80-5171-11ea-840b-f9b883b2f4bf.JPG)
 
 
-I built three pages on this website, the home page, the about page and the buying tickets page.
+* I built three pages on this website, the home page, the about page and the buying tickets page.
+
+* Each of these pages have versions for 3 different screen sizes :
+    * mobile: up to 767px
+    * desktop: from 768px
 
 ## Built With
 
 - HTML5
 - CSS3 (CSS grid and flexbox)
+- Javascript (DOM)
 
 ## Live Demo
 
