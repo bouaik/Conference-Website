@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/bouaik/Conference-Website/6b31130588f1e03e2bbdbb3a6e86607c401b35e5/tickets.html)
+[Live Demo Link](https://rawcdn.githack.com/bouaik/Conference-Website/481656cc9e4622340a0e71e67a1f7f6189585b1b/index.html)
 
 ## Authors
 
@@ -41,11 +41,11 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Desing idea by  [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Desing on behance [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Microverse
 - Youtube tutorials
 - [Pexels](https://www.pexels.com/) website for images
-- [Thestocks](http://thestocks.im/?ref=flatuicolors) website for colors
 
 ## 📝 License
 
