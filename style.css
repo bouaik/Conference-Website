@@ -3,11 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-html {
-  font-family: 'Roboto', sans-serif;
+  
+@font-face {
+  font-family: cocogoose;
+  src: url(fonts/Cocogoose\ Pro\ Regular\ Trial.ttf);
 }
-
+html {
+  font-family: 'Lato', sans-serif;
+}
 img {
   width: 100%;
 }
@@ -35,8 +38,9 @@ header {
 }
 
 .logo h2 {
-  font-weight: 100;
   color: #f04b11;
+  font-family: cocogoose, sans-serif;
+  font-size: 40px;
 }
 
 .menu-icon,
@@ -89,6 +93,7 @@ header {
   text-transform: uppercase;
   text-align: center;
   margin-top: 80px;
+  font-family: cocogoose, sans-serif;
 }
 
 .anouncement p {
@@ -107,6 +112,7 @@ header {
   background-color: #f04b11;
   border: 2px solid #f04b11;
   transition: all 0.5s;
+  font-family: cocogoose, sans-serif;
 }
 
 .anouncement .buy-ticket:hover {
