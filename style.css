@@ -18,17 +18,17 @@ img {
 /* start header */
 header {
   height: 100vh;
-  background-color: #3c3c3c;
+  background-color: #272a31;
 }
 
 .navbar {
-  border-bottom: 2px solid #f04b11;
+  border-bottom: 2px solid #ec5242;
   display: flex;
   height: 80px;
   align-items: center;
   position: fixed;
   width: 100%;
-  background-color: #3c3c3c;
+  background-color: #272a31;
 }
 
 .logo {
@@ -38,7 +38,7 @@ header {
 }
 
 .logo h2 {
-  color: #f04b11;
+  color: #ec5242;
   font-family: cocogoose, sans-serif;
   font-size: 40px;
 }
@@ -53,7 +53,7 @@ header {
   transition: 0.5s;
   cursor: pointer;
   pointer-events: none;
-  color: #f04b11;
+  color: #ec5242;
 }
 
 .menu-icon.active {
@@ -84,7 +84,7 @@ header {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 80px);
-  color: #f04b11;
+  color: #ec5242;
 }
 
 .anouncement h1 {
@@ -94,6 +94,7 @@ header {
   text-align: center;
   margin-top: 80px;
   font-family: cocogoose, sans-serif;
+  color: #ec5242;
 }
 
 .anouncement p {
@@ -107,24 +108,24 @@ header {
   display: block;
   text-decoration: none;
   padding: 20px 40px;
-  color: #3c3c3c;
+  color: #272a31;
   text-transform: uppercase;
-  background-color: #f04b11;
-  border: 2px solid #f04b11;
+  background-color: #ec5242;
+  border: 2px solid #ec5242;
   transition: all 0.5s;
   font-family: cocogoose, sans-serif;
 }
 
 .anouncement .buy-ticket:hover {
-  color: #f04b11;
-  background-color: #3c3c3c;
+  color: #ec5242;
+  background-color: #272a31;
 }
 
 @media screen and (max-width: 767px) {
   .main-menu {
     flex-direction: column;
     position: fixed;
-    background-color: #f04c11e8;
+    background-color: #ec5242;
     top: 80px;
     left: 100vw;
     width: 200px;
@@ -142,7 +143,7 @@ header {
   }
 
   .main-menu li a {
-    color: #3c3c3c;
+    color: #272a31;
     display: block;
     text-align: center;
     padding: 20px 0;
@@ -169,20 +170,20 @@ header {
   }
 
   .main-menu li a {
-    color: #f04b11;
-    font-size: 20px;
+    color: #ec5242;
+    font-size: 18.5px;
     display: block;
   }
 
   .main-menu li a:hover {
-    color: #3c3c3c;
+    color: #272a31;
   }
 
   .main-menu li a::after {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #f04b11;
+    background-color: #ec5242;
     display: block;
     transition: all 0.5s;
     position: relative;
@@ -204,14 +205,14 @@ header {
 
 .title {
   font-size: 40px;
-  color: #f04b11;
+  color: #ec5242;
   text-transform: uppercase;
   text-align: center;
 }
 
 .bar {
   height: 10px;
-  background-color: #f04b11;
+  background-color: #ec5242;
   width: 200px;
   margin: auto;
   border-radius: 50px;
@@ -239,13 +240,13 @@ header {
 }
 
 .speaker-name {
-  color: #f04b11;
+  color: #ec5242;
   text-transform: uppercase;
   font-size: 30px;
 }
 
 .speaker-desc {
-  color: #3c3c3c;
+  color: #272a31;
   line-height: 30px;
   font-size: 20px;
   font-style: italic;
@@ -258,17 +259,17 @@ header {
 
 .follow {
   text-transform: uppercase;
-  color: #3c3c3c;
+  color: #272a31;
 }
 
 .speaker .fab {
   margin: 0 10px;
-  color: #f04b11;
+  color: #ec5242;
   font-size: 17px;
 }
 
 .speaker .fab:hover {
-  color: #3c3c3c;
+  color: #272a31;
 }
 
 @media screen and (min-width: 768px) {
@@ -300,7 +301,7 @@ header {
 
 /* start newsletter */
 .newsletter {
-  background: #3c3c3c;
+  background: #272a31;
   padding: 40px 0;
 }
 
@@ -311,7 +312,7 @@ header {
 }
 
 .newsletter-content p {
-  color: #f04b11;
+  color: #ec5242;
   text-transform: uppercase;
   font-size: 25px;
   text-align: center;
@@ -327,23 +328,23 @@ form input {
   background-color: transparent;
   outline: none;
   border: none;
-  border-bottom: 2px solid #f04b11;
-  color: #f04b11;
+  border-bottom: 2px solid #ec5242;
+  color: #ec5242;
 }
 
 form input::placeholder {
-  color: #f04b11;
+  color: #ec5242;
   opacity: 0.4;
 }
 
 form button {
-  background-color: #f04b11;
+  background-color: #ec5242;
   border: none;
   font-size: 22px;
   text-transform: uppercase;
   padding: 2px 10px;
   cursor: pointer;
-  color: #3c3c3c;
+  color: #272a31;
 }
 
 @media screen and (max-width: 960px) {
@@ -367,7 +368,7 @@ form button {
 
 /* start footer */
 footer {
-  background-color: #2f2f2f;
+  background-color: #1b1e25;
   padding: 20px 0;
 }
 
@@ -388,7 +389,7 @@ footer {
 
 footer i {
   font-size: 22px;
-  color: #f04b11;
+  color: #ec5242;
   margin: 0 10px;
   transition: 0.5s;
 }
@@ -412,7 +413,7 @@ footer i:hover {
 }
 
 .text {
-  color: #3c3c3c;
+  color: #272a31;
   font-style: italic;
   font-size: 20px;
   line-height: 30px;
@@ -440,9 +441,9 @@ footer i:hover {
 
 .ticket-name {
   text-transform: uppercase;
-  color: #f04b11;
+  color: #ec5242;
   font-size: 20px;
-  background-color: #3c3c3c;
+  background-color: #272a31;
   text-align: center;
   padding: 5px 0;
 }
@@ -451,7 +452,7 @@ footer i:hover {
   margin-top: 30px;
   text-align: center;
   line-height: 30px;
-  color: #3c3c3c;
+  color: #272a31;
   font-style: italic;
 }
 
@@ -477,8 +478,8 @@ footer i:hover {
 
 .buy .but-link {
   text-decoration: none;
-  color: #f04b11;
-  background-color: #3c3c3c;
+  color: #ec5242;
+  background-color: #272a31;
   display: block;
   width: 100%;
   text-align: center;
@@ -489,8 +490,8 @@ footer i:hover {
 }
 
 .buy a:hover {
-  background-color: #f04b11;
-  color: #3c3c3c;
+  background-color: #ec5242;
+  color: #272a31;
 }
 
 @media screen and (min-width: 600px) {
