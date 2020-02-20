@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/bouaik/Conference-Website/481656cc9e4622340a0e71e67a1f7f6189585b1b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/bouaik/Conference-Website/c7288e52a271fb81a7a9a8fd1970c5c630460a29/index.html)
 
 ## Authors
 

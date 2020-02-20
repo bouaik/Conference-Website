@@ -199,65 +199,79 @@ header {
 }
 
 /* end header */
+
 /* start main program */
 .main-program {
   padding: 40px 0;
   background: #272a31 url(img/webb.png);
   background-blend-mode: multiply;
 }
+
 .main-program-content {
   margin-top: 40px;
 }
+
 .prog {
   padding: 20px 10px;
   background-color: rgba(255, 255, 255, 0.082);
 }
+
 .icon {
   text-align: center;
 }
+
 .icon .fas {
   color: #d3d3d3;
   font-size: 30px;
 }
+
 .parag {
   text-align: center;
 }
+
 .parag .parag-title {
   color: #ec5242;
   font-size: 20px;
 }
+
 .parag .parag-text {
   color: #fff;
 }
+
 @media screen and (max-width: 767px) {
   .prog {
     display: flex;
     align-items: center;
     margin: 15px 0;
   }
+
   .parag {
     display: flex;
     align-items: center;
   }
+
   .parag .parag-title {
     margin: 0 10px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .main-program-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
   }
+
   .parag .parag-title {
-    margin:10px 0;
+    margin: 10px 0;
   }
+
   .parag .parag-text {
     line-height: 25px;
     margin: 0 5px;
   }
-  
 }
+
 /* end main program */
 
 /* start speakers */
@@ -334,6 +348,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .speaker {
     grid-template-columns: 1fr 2fr;
   }
@@ -468,15 +483,18 @@ footer i:hover {
   line-height: 30px;
   margin: 20px 0;
 }
+
 .past-conferences {
   background-color: #d3d3d3;
   padding: 40px 0;
 }
+
 .past-conferences-content {
   display: grid;
   margin-top: 30px;
   grid-gap: 10px;
 }
+
 .thumbs {
   background: #ec5242 url(img/speaker1.jpg) center/cover no-repeat;
   background-blend-mode: soft-light;
@@ -486,25 +504,31 @@ footer i:hover {
   justify-content: center;
   cursor: pointer;
 }
+
 .date {
   color: #fff;
   font-size: 30px;
 }
+
 .desc {
   color: #fff;
   font-family: cocogoose, sans-serif;
   margin-top: 10px;
   text-align: center;
-}@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
   .past-conferences-content {
     grid-template: repeat(2, 300px) / 1fr;
   }
 }
+
 @media screen and (min-width: 768px) {
   .past-conferences-content {
-    grid-template:300px / repeat(2, 1fr);
+    grid-template: 300px / repeat(2, 1fr);
   }
 }
+
 /* end about */
 
 /* start tickets */
