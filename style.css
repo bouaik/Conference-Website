@@ -199,6 +199,66 @@ header {
 }
 
 /* end header */
+/* start main program */
+.main-program {
+  padding: 40px 0;
+  background: #272a31 url(img/webb.png);
+  background-blend-mode: multiply;
+}
+.main-program-content {
+  margin-top: 20px;
+}
+.prog {
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.082);
+}
+.icon {
+  text-align: center;
+}
+.icon .fas {
+  color: #d3d3d3;
+  font-size: 30px;
+}
+.parag {
+  text-align: center;
+}
+.parag .parag-title {
+  color: #ec5242;
+  font-size: 20px;
+}
+.parag .parag-text {
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .prog {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  .parag {
+    display: flex;
+    align-items: center;
+  }
+  .parag .parag-title {
+    margin: 0 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-program-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .parag .parag-title {
+    margin:10px 0;
+  }
+  .parag .parag-text {
+    line-height: 25px;
+    margin: 0 5px;
+  }
+  
+}
+/* end main program */
 
 /* start speakers */
 .speakers {
