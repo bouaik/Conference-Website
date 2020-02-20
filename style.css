@@ -206,7 +206,7 @@ header {
   background-blend-mode: multiply;
 }
 .main-program-content {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .prog {
   padding: 20px 10px;
@@ -468,7 +468,43 @@ footer i:hover {
   line-height: 30px;
   margin: 20px 0;
 }
-
+.past-conferences {
+  background-color: #d3d3d3;
+  padding: 40px 0;
+}
+.past-conferences-content {
+  display: grid;
+  margin-top: 30px;
+  grid-gap: 10px;
+}
+.thumbs {
+  background: #ec5242 url(img/speaker1.jpg) center/cover no-repeat;
+  background-blend-mode: soft-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.date {
+  color: #fff;
+  font-size: 30px;
+}
+.desc {
+  color: #fff;
+  font-family: cocogoose, sans-serif;
+  margin-top: 10px;
+  text-align: center;
+}@media screen and (max-width: 767px) {
+  .past-conferences-content {
+    grid-template: repeat(2, 300px) / 1fr;
+  }
+}
+@media screen and (min-width: 768px) {
+  .past-conferences-content {
+    grid-template:300px / repeat(2, 1fr);
+  }
+}
 /* end about */
 
 /* start tickets */
